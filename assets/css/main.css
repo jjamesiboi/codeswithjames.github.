@@ -4,7 +4,10 @@ body {
   height:100%;
   font-size: 62.5%;
 }
-
+body {
+ background-image: url("https://freellustrations-free-downloads.s3-us-west-1.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg");
+ background-color: "#000000;
+}
 * {
   margin: 0;
   padding: 0;
