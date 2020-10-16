@@ -6,7 +6,7 @@ body {
 }
 body {
  background-image: url("https://freellustrations-free-downloads.s3-us-west-1.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg");
- background-repeat: no-repeat, repeat;
+ background-repeat: no-repeat;
 }
 * {
   margin: 0;
