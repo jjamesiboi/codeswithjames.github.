@@ -1,65 +1,69 @@
-@charset "UTF-8";
-/* CSS Document */
-
 body {
-    background: #fff;
-    padding: 0;
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial;
+    width: 600px;
 }
 
-.container {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
+.form-container {
+    background: #f1ecdf;
+    border: #e2ddd2 1px solid;
+    padding: 20px;
+    border-radius: 2px;
 }
 
-h3 {
-    font-size: 16px;
-    color: #3498db;
-    font-weight: bold;
-    text-align: center;
-    line-height: 130%;
+.input-row {
+    margin-bottom: 20px;
 }
 
-.buton {
-    background: #3498db;
-    padding: 10px 20px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
+.input-row label {
+    color: #75726c;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background: #9e9a91;
+    border: #8c8880 1px solid;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
     border-radius: 3px;
-    text-decoration: none;
 }
 
-a:hover {
-    color: #ff0;
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
 }
 
-span {
-    font-size: 14px;
-    color: #FFF;
-    font-weight: normal;
-    text-align: center;
-}
-
-span a {
-    color: #FF0;
-    text-decoration: none;
-}
-
-span a:hover {
-    color: #F00;
-}
-
-@media screen and (max-width: 500px) {
-    img {
-        width: 70%;
-    }
-    .container {
-        padding: 70px 10px 10px 10px;
-    }
-    h3 {
-        font-size: 14px;
-    }
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
 }
